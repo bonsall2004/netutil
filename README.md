@@ -42,7 +42,7 @@ cmake -G "Visual Studio 16 2019" <Build Options> ../
 
 Then you can add it to your visual studio solution.
 
-### Used Libraries
+## Used Libraries
 
 #### Windows
 ```
