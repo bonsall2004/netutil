@@ -1,7 +1,8 @@
 # Netutil
 
-## [Documentation](https://bonsall2004.github.io/netutil/)
+[Documentation](https://bonsall2004.github.io/netutil/)
 
+## Installation
 
 ### Download
 
