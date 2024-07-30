@@ -1,0 +1,6 @@
+project(netutil-examples)
+
+set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR}/binaries/${CMAKE_BUILD_TYPE})
+set(CMAKE_LIBRARY_OUTPUT_DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR}/binaries/${CMAKE_BUILD_TYPE})
+  
+add_subdirectory(source/fetch)
