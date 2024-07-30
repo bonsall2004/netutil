@@ -10,6 +10,10 @@
 
 namespace netutil
 {
+  /// \defgroup fetch Fetch Functions
+  /// Functions to fetch data from URLs.
+  /// @{
+
   /**
    * @brief Fetches data from a specified URL.
    *
@@ -98,4 +102,6 @@ namespace netutil
    * @endcode
    */
   std::future<bool> fetch_stream_async(const std::string& url, std::stringstream& data_stream, uint64_t buffer_size = 4096);
+
+  /// @}
 }

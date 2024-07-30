@@ -1,0 +1,5 @@
+<navindex>
+        <tab type="usergroup" visible="yes" title="Documentation" url = "group__fetch.html">
+                <tab type="user" visible="yes" title="Fetch" url="group__fetch.html"/>
+        </tab>
+</navindex>

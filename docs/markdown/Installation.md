@@ -40,6 +40,18 @@ cmake -G "Visual Studio 16 2019" <Build Options> ../
 
 Then you can add it to your visual studio solution.
 
+## Used Libraries
+
+### Windows
+```
+wininet
+```
+
+### Linux
+```
+Threads
+```
+
 # Build Options
 
 ## Shared Library (Dynamic Library)

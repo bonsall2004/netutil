@@ -26,22 +26,15 @@ var NAVTREE =
 [
   [ "NetUtils", "index.html", [
     [ "Getting Started", "index.html", "index" ],
-    [ "Namespaces", "namespaces.html", [
-      [ "Namespace List", "namespaces.html", "namespaces_dup" ],
-      [ "Namespace Members", "namespacemembers.html", [
-        [ "All", "namespacemembers.html", null ],
-        [ "Functions", "namespacemembers_func.html", null ]
-      ] ]
-    ] ],
-    [ "Files", "files.html", [
-      [ "File List", "files.html", "files_dup" ]
+    [ "Documentation", "group__fetch.html", [
+      [ "Fetch", "group__fetch.html", null ]
     ] ]
   ] ]
 ];
 
 var NAVTREEINDEX =
 [
-"d2/d85/netutil_8h.html"
+"group__fetch.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';
