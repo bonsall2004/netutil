@@ -74,7 +74,7 @@ PROJECT_ICON           =
 # entered, it will be relative to the location where doxygen was started. If
 # left blank the current directory will be used.
 
-OUTPUT_DIRECTORY       = docs
+OUTPUT_DIRECTORY       = ./
 
 # If the CREATE_SUBDIRS tag is set to YES then doxygen will create up to 4096
 # sub-directories (in 2 levels) under the output directory of each output format
@@ -821,7 +821,7 @@ FILE_VERSION_FILTER    =
 # DoxygenLayout.xml, doxygen will parse it automatically even if the LAYOUT_FILE
 # tag is left empty.
 
-LAYOUT_FILE            = docs/layout.xml
+LAYOUT_FILE            = docs/resources/layout.xml
 
 # The CITE_BIB_FILES tag can be used to specify one or more bib files containing
 # the reference definitions. This must be a list of .bib files. The .bib
@@ -951,7 +951,7 @@ WARN_LOGFILE           =
 
 INPUT                  = src \
                          include/public \
-                         docs/markdown
+                         docs\resources\markdown
 
 # This tag can be used to specify the character encoding of the source files
 # that doxygen parses. Internally doxygen uses the UTF-8 encoding. Doxygen uses
@@ -1340,7 +1340,7 @@ GENERATE_HTML          = YES
 # The default directory is: html.
 # This tag requires that the tag GENERATE_HTML is set to YES.
 
-HTML_OUTPUT            = html
+HTML_OUTPUT            = docs
 
 # The HTML_FILE_EXTENSION tag can be used to specify the file extension for each
 # generated HTML page (for example: .htm, .php, .asp).
@@ -1367,7 +1367,7 @@ HTML_FILE_EXTENSION    = .html
 # of the possible markers and block names see the documentation.
 # This tag requires that the tag GENERATE_HTML is set to YES.
 
-HTML_HEADER            = docs/theme/custom-header.html
+HTML_HEADER            = docs/resources/theme/custom-header.html
 
 # The HTML_FOOTER tag can be used to specify a user-defined HTML footer for each
 # generated HTML page. If the tag is left blank doxygen will generate a standard
@@ -1407,9 +1407,9 @@ HTML_STYLESHEET        =
 # documentation.
 # This tag requires that the tag GENERATE_HTML is set to YES.
 
-HTML_EXTRA_STYLESHEET  = docs/theme/doxygen-awesome.css \
-                         docs/theme/doxygen-awesome-sidebar-only.css \
-                         docs/theme/doxygen-awesome-sidebar-only-darkmode-toggle.css
+HTML_EXTRA_STYLESHEET  = docs/resources/theme/doxygen-awesome.css \
+                         docs/resources/theme/doxygen-awesome-sidebar-only.css \
+                         docs/resources/theme/doxygen-awesome-sidebar-only-darkmode-toggle.css
 
 # The HTML_EXTRA_FILES tag can be used to specify one or more extra images or
 # other source files which should be copied to the HTML output directory. Note
@@ -1419,11 +1419,11 @@ HTML_EXTRA_STYLESHEET  = docs/theme/doxygen-awesome.css \
 # files will be copied as-is; there are no commands or markers available.
 # This tag requires that the tag GENERATE_HTML is set to YES.
 
-HTML_EXTRA_FILES       = docs/theme/doxygen-awesome-darkmode-toggle.js \
-                         docs/theme/doxygen-awesome-fragment-copy-button.js \
-                         docs/theme/doxygen-awesome-interactive-toc.js \
-                         docs/theme/doxygen-awesome-paragraph-link.js \
-                         docs/theme/doxygen-awesome-tabs.js
+HTML_EXTRA_FILES       = docs/resources/theme/doxygen-awesome-darkmode-toggle.js \
+                         docs/resources/theme/doxygen-awesome-fragment-copy-button.js \
+                         docs/resources/theme/doxygen-awesome-interactive-toc.js \
+                         docs/resources/theme/doxygen-awesome-paragraph-link.js \
+                         docs/resources/theme/doxygen-awesome-tabs.js
 
 # The HTML_COLORSTYLE tag can be used to specify if the generated HTML output
 # should be rendered with a dark or light theme.
