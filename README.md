@@ -3,13 +3,13 @@
 ## [Documentation](https://bonsall2004.github.io/netutil/)
 
 
-## Download
+### Download
 
 ```bash
 git clone https://github.com/bonsall2004/netutil.git 
 ```
 
-## CMake 
+### CMake 
 ```cmake
 cmake_minimum_required(VERSION 3.10)
 project(my-project LANGUAGES CXX)
@@ -25,7 +25,7 @@ target_link_libraries(my-application PRIVATE netutil)
 
 to your build command, it will build shared
 
-## Build for Visual Studio
+### Build for Visual Studio
 ```bash
 cd ./netutils
 ```
@@ -41,14 +41,14 @@ cmake -G "Visual Studio 16 2019" <Build Options> ../
 
 Then you can add it to your visual studio solution.
 
-## Used Libraries
+### Used Libraries
 
-### Windows
+#### Windows
 ```
 wininet
 ```
 
-### Linux
+#### Linux
 ```
 Threads
 ```
