@@ -5,7 +5,7 @@
  */
 #include <iostream>
 #include <sstream>
-#include <netutil/fetch.h> // Adjust the path to your header file
+#include <netutil/fetch.h>
 
 int main() {
   // Define the URL to fetch data from
