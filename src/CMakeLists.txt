@@ -1,8 +1,3 @@
-cmake_minimum_required(VERSION 3.28)
-project(netutil LANGUAGES CXX)
-
-set(CMAKE_CXX_STANDARD 23)
-
 if(WIN32)
   message(STATUS "netutil for windows")
   set(PLATFORM_SOURCES platform/windows/fetch.cpp)
